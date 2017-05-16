@@ -27,6 +27,7 @@ public class CompareLastNumbers4_8 {
             System.out.println("true");
 
         }else {
+
             System.out.println("false");
         }
 
