@@ -1,4 +1,4 @@
-package week_1.day1;
+package java_base.week_1.homeTasksWeek_1;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class IntegerDivisionBySeven4_3 {
         if ( number % 7 == 0){
             System.out.println("Double value of " + number*2);
         }else {
-            System.out.println("You entered number isn't divided by 7 whole");
+            System.out.println("You entered number isn't divided by 7 whole ");
         }
 
     }

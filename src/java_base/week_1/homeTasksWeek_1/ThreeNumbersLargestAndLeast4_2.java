@@ -1,6 +1,4 @@
-package week_1.day1;
-
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
+package java_base.week_1.homeTasksWeek_1;
 
 import java.util.Scanner;
 
@@ -65,10 +63,11 @@ public class ThreeNumbersLargestAndLeast4_2 {
 
         if (firstNumber == secondNumber & firstNumber == thirdNumber & secondNumber == thirdNumber){
             System.out.println("All numbers are equal");
-        }
-}
+           }
 
 
 
     }
+
+ }
 

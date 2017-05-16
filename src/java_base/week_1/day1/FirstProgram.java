@@ -1,4 +1,4 @@
-package week_1.day1;
+package java_base.week_1.day1;
 
 /**
  * Created by mac on 5/8/17.

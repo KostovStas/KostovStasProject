@@ -1,4 +1,4 @@
-package week_1.day1;
+package java_base.week_1.homeTasksWeek_1;
 
 import java.util.Scanner;
 
