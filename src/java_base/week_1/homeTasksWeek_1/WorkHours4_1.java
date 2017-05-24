@@ -16,18 +16,14 @@ public class WorkHours4_1 {
 
         if( hour>=0  && hour <9 ){
             System.out.println("I rest");
-        }
-
-        if (hour >= 9 && hour <=18){
+        } else if (hour >= 9 && hour <=18) {
 
             System.out.println("I am at work");
-        }
-        if (hour>=19 && hour <=24){
+        } else if (hour>=19 && hour <=24) {
 
             System.out.println("I rest");
 
-        }
-        if (hour < 0 || hour > 24){
+        } else if (hour < 0 || hour > 24){
             System.out.println("You enter value more than 24");
         }
 

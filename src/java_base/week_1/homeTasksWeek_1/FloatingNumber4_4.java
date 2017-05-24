@@ -15,7 +15,7 @@ public class FloatingNumber4_4 {
 
      float number = scanner.nextFloat();
 
-     if (number <= 0 || number <= 1 )
+     if (number >= 0 || number <= 1 )
      {
          System.out.println("Your enter number " + number+ " is in the range from 0 to 1");
 

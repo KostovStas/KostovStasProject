@@ -8,13 +8,13 @@ public class ArithmeticUtils {
 
     // public static - key words
     // int - какой тип возвращает
-    // SumOfTwoNumber - название метода,
+    // sumOfTwoNumber - название метода,
     // (int firstNumber, int secondNumber) - то что мы передаем в этот метод
     // {} - в скобках логика
     // return - key words(то что мы возвращаем)
     // Что бы вызвать метод  - пишем название класса ставим точку и выбираем метод из предложенных (Например:ArithmeticUtils.SumOfTwoNumbers)
 
-    public static int SumOfTwoNumbers (int firstNumber, int secondNumber){
+    public static int sumOfTwoNumbers (int firstNumber, int secondNumber){
         int sum = firstNumber + secondNumber;
         return sum;
     }

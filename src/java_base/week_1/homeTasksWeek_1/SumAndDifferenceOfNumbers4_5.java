@@ -18,12 +18,12 @@ public class SumAndDifferenceOfNumbers4_5 {
 
         int secondNumber = scanner.nextInt();
 
-        if (firstNumber>secondNumber){
+        if (firstNumber > secondNumber){
             System.out.println("The first number is greater than the second number, difference of numbers are " + (firstNumber - secondNumber));
 
         }else {
 
-            if(secondNumber>firstNumber){
+            if(secondNumber > firstNumber){
                 System.out.println("The second number is greater than the first number, sum of numbers are " + (secondNumber + firstNumber));
 
             }  else{
