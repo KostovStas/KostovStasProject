@@ -7,13 +7,13 @@ import java.util.Scanner;
 /**
  * Created by mac on 5/21/17.
  */
-public class SwitchCalculator {
+public class SwitchCalculator_0 {
     public static void main(String[] args) {
 
         System.out.println("Hello, my dear friend!");
         System.out.println();
 
-        whileLoop:
+       whileLoop:
 
         while (true) {
 
