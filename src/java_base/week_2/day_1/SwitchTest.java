@@ -43,6 +43,7 @@ public class SwitchTest {
                 default:
                     System.out.println("Wrong choice");
             }
+
             System.out.println("Maybe you want some more??  (yes/no)");
             userChoice = scanner.nextLine();
             switch (userChoice) {

@@ -13,7 +13,6 @@ public class SwitchCalculator_0 {
         System.out.println("Hello, my dear friend!");
         System.out.println();
 
-       whileLoop:
 
         while (true) {
 

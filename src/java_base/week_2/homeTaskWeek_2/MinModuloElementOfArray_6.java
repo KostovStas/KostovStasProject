@@ -26,7 +26,7 @@ public class MinModuloElementOfArray_6 {
 
         int to = scanner.nextInt();
 
-        int[] array = Methods.genArrayRandom(size, from, to);
+        int[] array = Methods.genIntArrayRandom(size, from, to);
 
         int minModuloElement = Math.abs(array[0]);
 

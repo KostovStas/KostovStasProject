@@ -24,7 +24,7 @@ public class ReplaceNegativeElementsInArray {
 
         int to = scanner.nextInt();
 
-        int[] array = Methods.genArrayRandom(size, from, to);
+        int[] array = Methods.genIntArrayRandom(size, from, to);
 
         System.out.println("Array before replacement");
 

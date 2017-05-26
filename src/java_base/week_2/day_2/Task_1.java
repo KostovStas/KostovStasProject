@@ -10,7 +10,7 @@ public class Task_1 {
 
 
         //Create array with randome numbers
-        int[] array = Methods.genArrayRandom(5, 3, 5);
+        int[] array = Methods.genIntArrayRandom(5, 3, 5);
 
         Methods.printArray(array);
 

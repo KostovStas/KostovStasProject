@@ -23,7 +23,7 @@ public class MinimumValueOfModuloInArray {
 
         int to = scanner.nextInt();
 
-        int[] array = Methods.genArrayRandom(size, from, to);
+        int[] array = Methods.genIntArrayRandom(size, from, to);
 
         int minValue = Math.abs(array[0]);
 

@@ -16,7 +16,7 @@ public class ReturnIndexOfFirstElementWhichIsFive {
 
         int size = scanner.nextInt();
 
-        int[] array = Methods.genArrayRandom(size, 4, 5);
+        int[] array = Methods.genIntArrayRandom(size, 4, 5);
 
         int indexOfFiveElement = -1;
 
@@ -31,6 +31,7 @@ public class ReturnIndexOfFirstElementWhichIsFive {
         }
 
         Methods.printArray(array);
+        System.out.println();
 
         System.out.println(indexOfFiveElement);
 

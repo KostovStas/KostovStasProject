@@ -26,7 +26,7 @@ public class LargestElementOfArray_5 {
 
         int to = scanner.nextInt();
 
-        int[] array = Methods.genArrayRandom(size, from, to);
+        int[] array = Methods.genIntArrayRandom(size, from, to);
 
         int maxValueOfArray = 0;
 
