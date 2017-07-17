@@ -37,53 +37,87 @@ public class ContacList {
     public void findContactByFirstName(String firstName) {
 
 
+        boolean isFound = false;
+
         for (int i = 0; i < listOfContacts.size(); i++) {
 
             if (firstName.equalsIgnoreCase(listOfContacts.get(i).getFirstName())) {
 
                 System.out.println(listOfContacts.get(i).toString());
 
-            }
+                isFound = true;
 
+            }
+        }
+
+        if (isFound == false) {
+
+            System.out.println("No matches found ");
         }
     }
 
 
     public void findContactBySecondName(String secondName) {
 
+        boolean isFound = false;
 
         for (int i = 0; i < listOfContacts.size(); i++) {
 
             if (secondName.equalsIgnoreCase(listOfContacts.get(i).getSecondName())) {
 
                 System.out.println(listOfContacts.get(i));
+
+                isFound = true;
             }
 
+        }
+
+        if (isFound == false) {
+
+            System.out.println("No matches found ");
         }
     }
 
 
     public void findContactByPhoneNumber(long phoneNumber) {
 
+        boolean isFound = false;
+
         for (int i = 0; i < listOfContacts.size(); i++) {
 
             if (listOfContacts.get(i).getPhoneNumber() == phoneNumber) {
 
                 System.out.println(listOfContacts.get(i));
+                isFound = true;
             }
+        }
+
+        if (isFound == false) {
+
+            System.out.println("No matches found ");
         }
     }
 
 
     public void findContactByAddress(String address) {
 
+
+        boolean isFound = false;
+
         for (int i = 0; i < listOfContacts.size(); i++) {
 
             if (listOfContacts.get(i).getAddress().equalsIgnoreCase(address)) {
 
                 System.out.println(listOfContacts.get(i));
+                isFound = true;
 
             }
+        }
+
+
+        if (isFound == false) {
+
+            System.out.println("No matches found ");
         }
     }
 
@@ -152,26 +186,47 @@ public class ContacList {
 
     public void showLifeContacts() {
 
+        boolean isFound = false;
+
         for (int i = 0; i < listOfContacts.size(); i++) {
 
             if (listOfContacts.get(i).getTelephoneOperator().equalsIgnoreCase("life")) {
 
                 System.out.println(listOfContacts.get(i));
+
+                isFound = true;
             }
 
+        }
+
+
+        if (isFound == false) {
+
+            System.out.println("No matches found ");
         }
     }
 
 
     public void showKiyvstarContacts (){
 
+
+        boolean isFound = false;
+
         for (int i = 0; i <listOfContacts.size() ; i++) {
 
             if (listOfContacts.get(i).getTelephoneOperator().equalsIgnoreCase("Kiyvstar")){
 
                 System.out.println(listOfContacts.get(i));
+
+                isFound = true;
             }
 
+        }
+
+
+        if (isFound == false) {
+
+            System.out.println("No matches found ");
         }
     }
 
