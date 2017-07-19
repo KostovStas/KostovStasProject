@@ -3,7 +3,7 @@ package qa_automation.bogdan_courses.contact_list;
 
 import java.util.Scanner;
 
-public class User {
+public class Contact {
 
 
     private String firstName;
@@ -13,7 +13,7 @@ public class User {
     private String telephoneOperator;
 
 
-    public User(String firstName, String secondName, long phoneNumber, String address, String telephoneOperator) {
+    public Contact(String firstName, String secondName, long phoneNumber, String address, String telephoneOperator) {
 
         this.firstName = firstName;
         this.secondName = secondName;
@@ -22,7 +22,7 @@ public class User {
         this.telephoneOperator = telephoneOperator;
     }
 
-    public User(String firstName, long phoneNumber, String telephoneOperator) {
+    public Contact(String firstName, long phoneNumber, String telephoneOperator) {
 
         firstName = this.firstName = firstName;
         this.phoneNumber =phoneNumber;
@@ -40,7 +40,6 @@ public class User {
     public String getFirstName() {
         return firstName;
     }
-
 
     public String getSecondName() {
         return secondName;
