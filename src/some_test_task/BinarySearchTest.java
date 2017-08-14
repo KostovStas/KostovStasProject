@@ -1,7 +1,7 @@
 package some_test_task;
 
 
-public class BinarySearch {
+public class BinarySearchTest {
     public static void main(String[] args) {
 
 

@@ -46,18 +46,16 @@ public class BinarySearchHelper {
         int last = arr.length - 1;
         int first = 0;
         while (first <= last) {
-            int middle = (first + last) / 2;
-            if (arr[middle] == value) {
-                return middle;
-            } else if (arr[middle] < value) {
-                first = middle + 1;
+            int middleIndexOfArray = (first + last)/2;
+            if (arr[middleIndexOfArray] == value) {
+                return middleIndexOfArray;
+            } else if (arr[middleIndexOfArray] < value) {
+                first = middleIndexOfArray + 1;
             } else {
-                last = middle - 1;
+                last = middleIndexOfArray - 1;
             }
         }
         return -1; // element not found
-
-
     }
 
 }
