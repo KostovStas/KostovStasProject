@@ -1,8 +1,10 @@
 package some_test_task;
 
 
-public class BinarySearchHelper {
+import com.sun.deploy.util.ArrayUtil;
+import java_base.week_2.homeTaskWeek_2.ArithmeticMeanOfArray_13;
 
+public class BinarySearchHelper {
 
     // generate some randome array
     public static int[] randomeArrayGanerator(int from, int to, int size) {
@@ -13,7 +15,6 @@ public class BinarySearchHelper {
         }
         return arrayRandome;
     }
-
 
     // sorting some randome array (bubble sorting)
     public static int[] arraySorting(int[] array) {
@@ -38,15 +39,13 @@ public class BinarySearchHelper {
         }
     }
 
-
-
     // Binary search in sorted array
     public static int binarySearch(int[] arr, int value) {
 
         int last = arr.length - 1;
         int first = 0;
         while (first <= last) {
-            int middleIndexOfArray = (first + last)/2;
+            int middleIndexOfArray = (first + last) / 2;
             if (arr[middleIndexOfArray] == value) {
                 return middleIndexOfArray;
             } else if (arr[middleIndexOfArray] < value) {
@@ -56,6 +55,23 @@ public class BinarySearchHelper {
             }
         }
         return -1; // element not found
+    }
+
+
+    public static int binarySearchByRecurtion(int[] array,int first, int last, int value) {
+
+        //int[] sortedArray = arraySorting(array);
+        int middleIndexOfArray = (first + last) / 2;
+        if (first >= last){
+            return -1; // element not found
+        } else if(array[middleIndexOfArray] == value){
+            return middleIndexOfArray; // middle element is our value
+        } else if(array[middleIndexOfArray] < value){
+            return binarySearchByRecurtion(array,middleIndexOfArray+1, last, value); // the requred is bigger than middle value
+        }else {
+            return binarySearchByRecurtion(array,first,middleIndexOfArray-1, value); // the requred is less than middle value
+        }
+
     }
 
 }
